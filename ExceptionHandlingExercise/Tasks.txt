@@ -1,0 +1,41 @@
+﻿x// First create an char[], it must contain 6 numbers and 
+x3 letters - name it arr
+       x // Create a list called numbers that will hold integers
+       x // Create an string variable with an empty string 
+       x initializer - name it str
+
+       x // using a foreach loop, attempt to parse the elements
+       x in your char[] with int.Parse()
+       x // and Exceptions will be thrown 
+       x // Below we will set this up 
+       x // ------------------------------------------------------------------------------
+
+       x //TODO START HERE:
+        
+       x // Make a foreach loop to iterate through your character 
+       x array
+        
+       x     // Now create a try catch
+            
+            
+       x         // Inside your try block
+             ?      // set your string variable to each array 
+             ?       element in your char[] to .ToString()
+             x       // Now, using int.Parse, parse your string 
+             x       variable and store in an int variable
+             x       // Then add each int to your list
+            
+      x      // catch your Exception:
+      x      // in the scope of your catch you can use the 
+      x      following, 
+            
+      x          //Console.WriteLine($"Unable to Parse 
+      x          '{character}'"); //character will be the name 
+      x          of each item in your collection
+            
+        
+      ?  What are we supposed to do with below??
+        //foreach (var num in numbers)
+        //{
+        //    Console.WriteLine(num);
+        //}
